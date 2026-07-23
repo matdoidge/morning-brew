@@ -1,0 +1,49 @@
+{
+  "name": "morning-brew",
+  "displayName": "Morning Brew",
+  "description": "A coffee-inspired colour theme family for VS Code. Two roasts: Dark Roast (warm, dark, bold) and Flat White (muted, subtle, light).",
+  "version": "0.0.1",
+  "publisher": "mat-doidge",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matdoidge/morning-brew.git"
+  },
+  "bugs": {
+    "url": "https://github.com/matdoidge/morning-brew/issues"
+  },
+  "homepage": "https://github.com/matdoidge/morning-brew#readme",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "coffee",
+    "warm",
+    "pastel",
+    "light",
+    "dark"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Morning Brew — Dark Roast",
+        "uiTheme": "vs-dark",
+        "path": "./themes/morning-brew-dark-roast-color-theme.json"
+      },
+      {
+        "label": "Morning Brew — Mocha",
+        "uiTheme": "vs-dark",
+        "path": "./themes/morning-brew-mocha-color-theme.json"
+      },
+      {
+        "label": "Morning Brew — Flat White",
+        "uiTheme": "vs",
+        "path": "./themes/morning-brew-flat-white-color-theme.json"
+      }
+    ]
+  }
+}
