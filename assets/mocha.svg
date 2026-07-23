@@ -1,0 +1,36 @@
+<svg width="760" height="442" viewBox="0 0 760 442" xmlns="http://www.w3.org/2000/svg" xml:space="preserve">
+<defs><clipPath id="win"><rect x="0" y="0" width="760" height="442" rx="12"/></clipPath></defs>
+<g clip-path="url(#win)">
+<rect x="0" y="0" width="760" height="442" fill="#271A12"/>
+<rect x="0" y="0" width="760" height="46" fill="#1D110B"/>
+<circle cx="24" cy="23.0" r="6.5" fill="#E0728F"/>
+<circle cx="46" cy="23.0" r="6.5" fill="#E0A85B"/>
+<circle cx="68" cy="23.0" r="6.5" fill="#9BB86B"/>
+<text x="380.0" y="28.0" text-anchor="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#6B5540">morning-brew.ts — Mocha</text>
+<rect x="0" y="46" width="760" height="1" fill="#6B5540" opacity="0.18"/>
+<text x="40" y="76" text-anchor="end" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#6B5540">1</text>
+<text x="62" y="76" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="15"><tspan fill="#8A7259" font-style="italic">// Morning Brew — a cozy roast for your editor</tspan></text>
+<text x="40" y="101" text-anchor="end" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#6B5540">2</text>
+<text x="62" y="101" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="15"><tspan fill="#E0728F" font-weight="700">import</tspan><tspan fill="#B49A80"> { </tspan><tspan fill="#E0A85B">brew</tspan><tspan fill="#B49A80"> } </tspan><tspan fill="#E0728F" font-weight="700">from</tspan><tspan fill="#E9D8BF"> </tspan><tspan fill="#9BB86B">"./coffee"</tspan><tspan fill="#B49A80">;</tspan></text>
+<text x="40" y="126" text-anchor="end" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#6B5540">3</text>
+<text x="40" y="151" text-anchor="end" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#6B5540">4</text>
+<text x="62" y="151" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="15"><tspan fill="#C79BE0" font-weight="700">const</tspan><tspan fill="#E9D8BF"> </tspan><tspan fill="#E9D8BF">ROASTS</tspan><tspan fill="#E9D8BF"> </tspan><tspan fill="#D9A17A">=</tspan><tspan fill="#E9D8BF"> </tspan><tspan fill="#B49A80">[</tspan><tspan fill="#9BB86B">"dark"</tspan><tspan fill="#B49A80">, </tspan><tspan fill="#9BB86B">"mocha"</tspan><tspan fill="#B49A80">, </tspan><tspan fill="#9BB86B">"flat white"</tspan><tspan fill="#B49A80">]</tspan><tspan fill="#B49A80">;</tspan></text>
+<text x="40" y="176" text-anchor="end" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#6B5540">5</text>
+<text x="40" y="201" text-anchor="end" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#6B5540">6</text>
+<text x="62" y="201" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="15"><tspan fill="#E0728F" font-weight="700">export</tspan><tspan fill="#E9D8BF"> </tspan><tspan fill="#C79BE0" font-weight="700">function</tspan><tspan fill="#E9D8BF"> </tspan><tspan fill="#E0A85B">pour</tspan><tspan fill="#B49A80">(</tspan><tspan fill="#E9D8BF">cup</tspan><tspan fill="#B49A80">: </tspan><tspan fill="#C79BE0">Cup</tspan><tspan fill="#B49A80">, </tspan><tspan fill="#E9D8BF">count</tspan><tspan fill="#E9D8BF"> </tspan><tspan fill="#D9A17A">=</tspan><tspan fill="#E9D8BF"> </tspan><tspan fill="#E08A4E">1</tspan><tspan fill="#B49A80">)</tspan><tspan fill="#B49A80">: </tspan><tspan fill="#C79BE0">boolean</tspan><tspan fill="#B49A80"> {</tspan></text>
+<text x="40" y="226" text-anchor="end" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#6B5540">7</text>
+<text x="62" y="226" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="15"><tspan fill="#C79BE0" font-weight="700">  const</tspan><tspan fill="#E9D8BF"> </tspan><tspan fill="#E9D8BF">ready</tspan><tspan fill="#E9D8BF"> </tspan><tspan fill="#D9A17A">=</tspan><tspan fill="#E9D8BF"> </tspan><tspan fill="#E9D8BF">cup</tspan><tspan fill="#B49A80">.</tspan><tspan fill="#7FC9B0">temperature</tspan><tspan fill="#E9D8BF"> </tspan><tspan fill="#D9A17A">&gt;=</tspan><tspan fill="#E9D8BF"> </tspan><tspan fill="#E08A4E">92</tspan><tspan fill="#B49A80">;</tspan></text>
+<text x="40" y="251" text-anchor="end" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#6B5540">8</text>
+<text x="62" y="251" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="15"><tspan fill="#E0728F" font-weight="700">  if</tspan><tspan fill="#E9D8BF"> </tspan><tspan fill="#B49A80">(</tspan><tspan fill="#D9A17A">!</tspan><tspan fill="#E9D8BF">ready</tspan><tspan fill="#B49A80">) </tspan><tspan fill="#E0728F" font-weight="700">return</tspan><tspan fill="#E9D8BF"> </tspan><tspan fill="#E0728F">false</tspan><tspan fill="#B49A80">;</tspan></text>
+<text x="40" y="276" text-anchor="end" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#6B5540">9</text>
+<text x="40" y="301" text-anchor="end" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#6B5540">10</text>
+<text x="62" y="301" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="15"><tspan fill="#E0728F" font-weight="700">  for</tspan><tspan fill="#E9D8BF"> </tspan><tspan fill="#B49A80">(</tspan><tspan fill="#C79BE0" font-weight="700">const</tspan><tspan fill="#E9D8BF"> </tspan><tspan fill="#E9D8BF">roast</tspan><tspan fill="#E9D8BF"> </tspan><tspan fill="#E0728F" font-weight="700">of</tspan><tspan fill="#E9D8BF"> </tspan><tspan fill="#E9D8BF">ROASTS</tspan><tspan fill="#B49A80">) {</tspan></text>
+<text x="40" y="326" text-anchor="end" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#6B5540">11</text>
+<text x="62" y="326" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="15"><tspan fill="#E0A85B">    brew</tspan><tspan fill="#B49A80">(</tspan><tspan fill="#E9D8BF">roast</tspan><tspan fill="#B49A80">, </tspan><tspan fill="#B49A80">{ </tspan><tspan fill="#7FC9B0">sugar</tspan><tspan fill="#B49A80">: </tspan><tspan fill="#E08A4E">0</tspan><tspan fill="#B49A80">, </tspan><tspan fill="#7FC9B0">oat</tspan><tspan fill="#B49A80">: </tspan><tspan fill="#E0728F">true</tspan><tspan fill="#B49A80"> }</tspan><tspan fill="#B49A80">)</tspan><tspan fill="#B49A80">;</tspan></text>
+<text x="40" y="351" text-anchor="end" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#6B5540">12</text>
+<text x="62" y="351" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="15"><tspan fill="#B49A80">  }</tspan></text>
+<text x="40" y="376" text-anchor="end" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#6B5540">13</text>
+<text x="62" y="376" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="15"><tspan fill="#E0728F" font-weight="700">  return</tspan><tspan fill="#E9D8BF"> </tspan><tspan fill="#E0728F">true</tspan><tspan fill="#B49A80">;</tspan></text>
+<text x="40" y="401" text-anchor="end" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#6B5540">14</text>
+<text x="62" y="401" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="15"><tspan fill="#B49A80">}</tspan></text>
+</g></svg>
