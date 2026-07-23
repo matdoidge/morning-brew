@@ -1,7 +1,7 @@
 {
   "name": "morning-brew",
   "displayName": "Morning Brew",
-  "description": "A coffee-inspired colour theme family for VS Code. Two roasts: Dark Roast (warm, dark, bold) and Flat White (muted, subtle, light).",
+  "description": "A coffee-inspired colour theme family for VS Code. Three roasts: Dark Roast (warm, darkest, bold), Mocha (warm, dark, bold), and Flat White (muted, subtle, light).",
   "version": "0.0.2",
   "publisher": "artfuldoidger",
   "icon": "icon.png",
