@@ -1,0 +1,47 @@
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg" cx="42%" cy="34%" r="78%">
+      <stop offset="0%" stop-color="#2F1E14"/>
+      <stop offset="100%" stop-color="#1B110A"/>
+    </radialGradient>
+    <linearGradient id="cup" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F2E6D2"/>
+      <stop offset="100%" stop-color="#D9C4A3"/>
+    </linearGradient>
+    <linearGradient id="saucer" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#C57B33"/>
+      <stop offset="100%" stop-color="#8A4A1C"/>
+    </linearGradient>
+  </defs>
+
+  <!-- background -->
+  <rect x="0" y="0" width="256" height="256" rx="56" fill="url(#bg)"/>
+
+  <!-- steam -->
+  <g fill="none" stroke="#E9D8BF" stroke-linecap="round" stroke-width="7">
+    <path d="M110,94 C102,82 118,74 110,62 C102,50 116,44 110,34" opacity="0.45"/>
+    <path d="M128,92 C120,78 136,70 128,56 C120,44 134,38 128,26" opacity="0.62"/>
+    <path d="M146,94 C138,82 154,74 146,62 C138,50 152,44 146,34" opacity="0.45"/>
+  </g>
+
+  <!-- saucer -->
+  <ellipse cx="128" cy="198" rx="82" ry="17" fill="url(#saucer)"/>
+  <ellipse cx="128" cy="194" rx="68" ry="12" fill="#3A2416"/>
+
+  <!-- handle -->
+  <path d="M178,124 C220,112 224,176 180,166" fill="none" stroke="#E3CFAE" stroke-width="12" stroke-linecap="round"/>
+
+  <!-- cup body -->
+  <path d="M74,112 C74,160 92,186 128,186 C164,186 182,160 182,112 Z" fill="url(#cup)"/>
+
+  <!-- rim -->
+  <ellipse cx="128" cy="112" rx="55" ry="14" fill="#F2E6D2"/>
+  <ellipse cx="128" cy="112" rx="55" ry="14" fill="none" stroke="#C9B48F" stroke-width="2"/>
+
+  <!-- coffee -->
+  <ellipse cx="128" cy="112" rx="45" ry="10.5" fill="#3A2416"/>
+  <ellipse cx="128" cy="111" rx="45" ry="10.5" fill="#5A3A24"/>
+  <ellipse cx="128" cy="110.5" rx="40" ry="8.5" fill="#3A2416"/>
+  <!-- crema highlight -->
+  <ellipse cx="116" cy="108" rx="12" ry="3.4" fill="#8A6A50" opacity="0.55"/>
+</svg>
